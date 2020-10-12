@@ -1,5 +1,5 @@
 // JavaScript source code
-let data = JSON.parse(actors);
+let data = (actors);
 for (let i = 0; i < data.length; i++) {
     $(".container").append(`<div class="container mt-5 ml-4 mr-3">
     <div class="row">
