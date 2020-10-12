@@ -14,6 +14,7 @@
         li{
             font-size:larger;
         }
+       
     </style>
 </head>
 <body>
@@ -26,26 +27,73 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-dark font-weight-bold" href="#advanced.html">
+                <a class="nav-link text-dark font-weight-bold" href="advanced.html">
                     Actors
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-dark font-weight-bold" href="#">
+                <a class="nav-link text-dark font-weight-bold" href="review.html">
                     Reviews
                 </a>
             </li>
         </ul>
     </nav>
     <div class="container">
-        
-    </div>
+        <div class="row">
+            <!---<div class="col col-lg-4 bg-dark">
+            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
 
-     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+                <a class="nav-link active" id="v-pills-actor1-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Actor 1</a>
+                <a class="nav-link" id="v-pills-actor2-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Actor 2</a>
+                <a class="nav-link" id="v-pills-actor3-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Actor 3</a>
+                <a class="nav-link" id="v-pills-actor4-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Actor 4</a>
+                <a class="nav-link" id="v-pills-actor5-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Actor 5</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-7" id="text">
+        <div class="tab-content" id="v-pills-tabContent">
+            <div class="tab-pane fade show active" id="v-pills-actor1" role="tabpanel" aria-labelledby="v-pills-actor1-tab">text 111</div>
+            <div class="tab-pane fade" id="v-pills-actor2" role="tabpanel" aria-labelledby="v-pills-actor2-tab">text 2</div>
+            <div class="tab-pane fade" id="v-pills-actor3" role="tabpanel" aria-labelledby="v-pills-actor3-tab">text 3</div>
+            <div class="tab-pane fade" id="v-pills-actor4" role="tabpanel" aria-labelledby="v-pills-actor4-tab">text 4</div>
+            <div class="tab-pane fade" id="v-pills-actor5" role="tabpanel" aria-labelledby="v-pills-actor5-tab">text 5</div>
+        </div>--->
+            <div class="nav flex-column nav-pills mt-5 bg-dark " id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Actor 1</a>
+                <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Actor 2</a>
+                <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Actor 3</a>
+                <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Actor 4</a>
+            </div>
+            <div class="tab-content d-flex justify-content-center" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab"><div class="card ml-3 mt-5" style="width: 18rem;">
+    <img class="card-img-center text-center " src="img/anil.jpg" alt="Card image cap">
+    <div class="card-body text-center">
+        <p class="card-text">Anil Kapoor (born 24 December 1956) is an Indian actor and producer who has appeared in over a hundred Hindi-language films, as well as international films and television series.[1] His career has spanned 40 years as an actor, and as a produc</p>
+    </div>
+</div></div>
+                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab"><div class="card ml-3 mt-5 p-4 " style="width: 18rem;">
+    <img class="card-img-top" src="img/aditya.jpg" alt="Card image cap">
+    <div class="card-body">
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+</div></div>
+                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab"><div class="card ml-3 mt-5 p-4" style="width: 18rem;">
+    <img class="card-img-top" src="img/disha.jpg" alt="disha">
+    <div class="card-body">
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+</div></div>
+                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">4</div>
+            </div>
+        </div>
+        </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="data.json"></script>
-    <script src="Script1.js"></script>
+    <!--<script src="data.json"></script>
+    <script src="Script1.js"></script>-->
 </body>
 </html>
 
